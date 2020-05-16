@@ -5,8 +5,8 @@ public class UserBuilder {
     // 所需的接口请参阅UserBuilderTest测试类
         private String firstName;
         private String lastName;
-        private String  phoneNumber;
-        private String  address;
+        private String phoneNumber;
+        private String address;
         public UserBuilder firstName (String firstName) {
             this.firstName = firstName;
             return this;
@@ -25,6 +25,6 @@ public class UserBuilder {
         }
         public User build () {
             return new
-            User(firstName,lastName,phoneNumber,address);
+            User(firstName , lastName , phoneNumber , address);
         }
 }
